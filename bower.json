@@ -1,0 +1,18 @@
+{
+  "name": "es6",
+  "version": "0.0.0",
+  "authors": [
+    "Kim Gunnarsson <kim@morgondag.nu>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
