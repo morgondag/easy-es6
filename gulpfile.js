@@ -71,5 +71,5 @@ gulp.task('build', function() {
 
 // watch yoo files man.
 gulp.task('watch', function() {
-	gulp.watch('./js/*.js', ['build'])
+	gulp.watch(['./js/*.js', '!js/app.min.js'], ['build'])
 })
